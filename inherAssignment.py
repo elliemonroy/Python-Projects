@@ -4,18 +4,18 @@ class Info:
     fname = ' '
     lname = ' '
     Address = ' '
-    DOB =
+    DOB = None
     
 
 # Created a class Student that uses Info's attributes and added two new attributes
 class Student(Info):
     Grade = " "
-    GPA = 
+    GPA = 3.5 
 
 # Created a class Teacher that uses Info's attributes as well and added two new attributes
 class Teacher(Info):
     Subject = ' '
-    gradeLevel = 
+    gradeLevel = '1st'
     
     
     
